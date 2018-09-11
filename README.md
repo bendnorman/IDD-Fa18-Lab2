@@ -24,12 +24,15 @@ Include your responses to the bold questions on your own fork of [this lab repor
 ## Part B. Writing to the LCD
  
 **a. What voltage level do you need to power your display?**
+
 5V
 
 **b. What voltage level do you need to power the display backlight?**
+
 3.3V
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
+
 My A and K display inputs were switched! 
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
@@ -51,10 +54,7 @@ int delayTime = 200;
 void setup() {
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
-  
-  pinMode(A0, INPUT);
-  
-  
+  pinMode(A0, INPUT);  
 }
 
 void loop() {
@@ -93,6 +93,7 @@ for (int i = 0; i < numNotes; i++) {
  
 **b. What song is playing?**
 
+Star Wars!
 
 ## Part E. Make your own timer
 
